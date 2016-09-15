@@ -1,0 +1,58 @@
+Aula de Table View
+
+ENUNCIADO
+
+    Construa uma aplicação para listar os seu contatos no telefone. Cada contato deve ter uma foto, nome e telefone.
+
+PASSO A PASSO
+
+- Os passos abaixo foram os passos utilizados para a construção deste projeto.
+- Eles o guiarão pela criação do projeto.
+- Após cada instrução está referenciado o arquivo criado ou modificado por ele.
+- O numero dos passos não corresponde ao número presente nos comentarios no código
+
+
+1) Crie um novo projeto no Xcode, uma Single View Application
+
+2) No storyboard apague a ViewController, adicione uma TableViewcontroller e configure ela para ser a tela inicial
+-> View > Main.storyboard
+
+3) Adicione os componentes necessário na TableViewCell
+-> View > Main.storyboard
+
+3.1) Crie a classe Contato (new file -> swift file) com suas propriedades e método de inicialização (init)
+-> Model > Contato.swift
+
+4) Crie a classe AulaTableViewController, subclasse de UITableViewController
+-> Controller -> ContatosTableViewController.swift
+
+5) Associe a classe AulaTableViewController com a table view controller no storyboard
+-> View > Main.storyboard
+
+6) Crie a classe AulaTableViewCell, subclasse de UITableViewCell
+-> Model > ContatoTableViewCell.swift
+
+7) Associe a classe AulaTableViewCell com o célula na table view controller no storyboard (Table View Cell)
+-> View > Main.storyboard
+
+8) Crie as outlets da sua table view cell na classe AulaTableViewCell (CTRL+Clica e arrasta)
+-> View > Main.storyboard + ContatoTableViewCell.swift
+
+9) De volta na classe AulaTableViewController, crie um array vazio de contatos e no método viewDidLoad, instanciei alguns objetos do tipo Contato e adicione-os no array que você criou
+-> Controller -> ContatosTableViewController.swift
+
+10) Implemente os métodos que definem o número de seções e o numero de linhas da table view.
+-> Controller -> ContatosTableViewController.swift
+
+11) Descomente o método:
+override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+e implemente a configuração das células
+- Faça a conversão da célula
+- Adicione o identifier na célula, lá no storyboard (attributes inspector)
+- Use o indexPath.row para saber em que linha da tabela o método está
+-> Controller -> ContatosTableViewController.swift
+
+12) Rode seu projeto
+
+13) Caso não esteja bonitinho ainda, de uma ajeitada nas constraints lá no storyboard.
+-> View > Main.storyboard
