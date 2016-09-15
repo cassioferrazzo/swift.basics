@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class Animal{
+    
+    let nome: String
+    let fotoDoAnimal: String
+    var peso: Double
+    
+    init (nome: String, fotoDoAnimal: String, peso: Double){
+        self.nome = nome
+        self.fotoDoAnimal = fotoDoAnimal
+        self.peso = peso
+    }
+}

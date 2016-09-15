@@ -10,14 +10,23 @@ import UIKit
 
 class AnimalTableViewController: UITableViewController {
 
+    var animais: [Animal] = [Animal]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        let animal1 = Animal(nome: "Cachorro", fotoDoAnimal: "cachorro", peso: 5.9)
+        let animal2 = Animal(nome: "Dromedario", fotoDoAnimal: "dromedario", peso: 30.1)
+        let animal3 = Animal(nome: "Periquito", fotoDoAnimal: "periquito", peso: 0.39)
+        let animal4 = Animal(nome: "Canguru Albino", fotoDoAnimal: "canguru", peso: 9.7)
+        let animal5 = Animal(nome: "Cisne Negro", fotoDoAnimal: "cisne", peso: 5.1)
+        
+        self.animais.append(animal1)
+        self.animais.append(animal2)
+        self.animais.append(animal3)
+        self.animais.append(animal4)
+        self.animais.append(animal5)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,23 +38,27 @@ class AnimalTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return self.animais.count
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("animalIdentifier", forIndexPath: indexPath) as! AnimalTableViewCell
+        let animal = self.animais[indexPath.row]
+        cell.nomeDoAnimal.text = animal.nome
+        cell.pesoDoAnimal.text = "\(animal.peso)"
+        cell.animalFoto.image  = UIImage(named: animal.fotoDoAnimal)
 
         // Configure the cell...
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
