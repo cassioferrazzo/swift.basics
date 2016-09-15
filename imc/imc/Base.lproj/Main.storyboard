@@ -37,12 +37,12 @@
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Peso (Kg)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d2N-zL-cdh">
                                                         <rect key="frame" x="0.0" y="37" width="560" height="28"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                                     </textField>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Altura (m)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Pp-q4-mLg">
                                                         <rect key="frame" x="0.0" y="73" width="560" height="29"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                                     </textField>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vY5-js-Wps">
                                                         <rect key="frame" x="0.0" y="109" width="560" height="28"/>
@@ -50,6 +50,9 @@
                                                         <state key="normal" title="CALCULAR">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="calcularIMC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gr8-hD-Cy6"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -76,6 +79,11 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JI8-Wp-MUh" secondAttribute="bottom" id="jMM-2n-bBh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lbResultado" destination="IBz-cZ-cEP" id="1G1-kF-r0x"/>
+                        <outlet property="tfAltura" destination="4Pp-q4-mLg" id="cOY-yT-1nH"/>
+                        <outlet property="tfPeso" destination="d2N-zL-cdh" id="DfA-rr-DaB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,16 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    @IBOutlet weak var lbResultado: UILabel!
+    @IBOutlet weak var tfPeso: UITextField!
+    @IBOutlet weak var tfAltura: UITextField!
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func calcularIMC(sender: AnyObject) {
+        
+        let altura = Double(self.tfAltura.text!)!
+        let peso = Double(self.tfPeso.text!)!
+        
+        let IMC = peso/(altura*altura)
+        
+        self.lbResultado.text = String(format: "%.2f", IMC)
+        
     }
-
 
 }
 
