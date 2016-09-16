@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0Nr-eE-OVl">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="ktN-If-QuM">
+            <objects>
+                <viewController id="2is-8x-8kz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EXX-tx-iKy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rbv-d2-P4I"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sjZ-y4-KjX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="o5c-kD-4pH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rfu-7a-Sc4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="578" y="587"/>
+        </scene>
+        <!--Início-->
+        <scene sceneID="gdM-63-gvf">
+            <objects>
+                <viewController id="4N7-CM-GXn" customClass="InputTextViewController" customModule="prata" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sDZ-Ct-ojc"/>
+                        <viewControllerLayoutGuide type="bottom" id="e9S-k6-1R1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wj8-xY-tHX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="gQC-2a-tdF">
+                                <rect key="frame" x="20" y="72" width="560" height="68"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Digite um textinho" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EoN-79-c7P">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptL-XA-tLd">
+                                        <rect key="frame" x="0.0" y="38" width="560" height="30"/>
+                                        <state key="normal" title="Depois clique aqui"/>
+                                        <connections>
+                                            <segue destination="Igs-7W-oP6" kind="show" identifier="textoSegue" id="ldj-ax-tI7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gQC-2a-tdF" firstAttribute="top" secondItem="sDZ-Ct-ojc" secondAttribute="bottom" constant="8" id="7Vm-CZ-otJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gQC-2a-tdF" secondAttribute="trailing" id="dRe-Eb-Uau"/>
+                            <constraint firstItem="gQC-2a-tdF" firstAttribute="leading" secondItem="Wj8-xY-tHX" secondAttribute="leadingMargin" id="zWK-QB-LvC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Início" id="HGO-Gm-1CX"/>
+                    <connections>
+                        <outlet property="editText" destination="EoN-79-c7P" id="cJ8-R6-alJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="heW-2G-NmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1390" y="-74"/>
+        </scene>
+        <!--Texto View Controller-->
+        <scene sceneID="vOK-Ui-Ye8">
+            <objects>
+                <viewController id="Igs-7W-oP6" customClass="TextoViewController" customModule="prata" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ugI-dG-Vvg"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y9M-gt-5VO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wxr-9O-2Ib">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0vg-Ot-6KN">
+                                <rect key="frame" x="20" y="72" width="560" height="58"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Você digitou:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0Y-RU-M78">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNt-eh-ENl">
+                                        <rect key="frame" x="0.0" y="29" width="560" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0vg-Ot-6KN" firstAttribute="top" secondItem="ugI-dG-Vvg" secondAttribute="bottom" constant="8" id="7x7-E5-CLB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0vg-Ot-6KN" secondAttribute="trailing" id="n0J-bI-Zli"/>
+                            <constraint firstItem="0vg-Ot-6KN" firstAttribute="leading" secondItem="Wxr-9O-2Ib" secondAttribute="leadingMargin" id="zfh-QE-jj7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lbTexto" destination="iNt-eh-ENl" id="D6o-7a-57y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uef-CM-YoP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2049" y="-74"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="EX9-10-4sl">
+            <objects>
+                <tabBarController id="0Nr-eE-OVl" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="0QD-hn-FUM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7Zz-Rh-psp" kind="relationship" relationship="viewControllers" id="4Sf-wG-WFX"/>
+                        <segue destination="2is-8x-8kz" kind="relationship" relationship="viewControllers" id="8Kc-0t-FoH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ote-IY-Tnc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-242" y="257"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="09M-ag-suX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7Zz-Rh-psp" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 1" id="vec-cL-cxX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gWM-Y4-DgG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4N7-CM-GXn" kind="relationship" relationship="rootViewController" id="ZFZ-N6-Iwh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zag-lB-Yhv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="578" y="-74"/>
+        </scene>
+    </scenes>
+</document>

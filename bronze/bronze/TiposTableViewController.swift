@@ -10,7 +10,7 @@ import UIKit
 
 class TiposTableViewController: UITableViewController {
 
-    let tipos: [String] = ["String","Float","Double", "Int"]
+    let tipos: [String] = ["String","Float","Double", "Int"] 
     
     override func viewDidLoad() {
         super.viewDidLoad()
