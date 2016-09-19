@@ -14,6 +14,7 @@
 		3FCCC3EA1D8C84E90081B803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCCC3E81D8C84E90081B803 /* LaunchScreen.storyboard */; };
 		3FCCC3F21D8C86D20081B803 /* TextoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCC3F11D8C86D20081B803 /* TextoViewController.swift */; };
 		3FCCC3F41D8C87780081B803 /* InputTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCCC3F31D8C87780081B803 /* InputTextViewController.swift */; };
+		3FD2AB981D90660C0053FF1A /* ImagemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2AB971D90660C0053FF1A /* ImagemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3FCCC3EB1D8C84E90081B803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FCCC3F11D8C86D20081B803 /* TextoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextoViewController.swift; sourceTree = "<group>"; };
 		3FCCC3F31D8C87780081B803 /* InputTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTextViewController.swift; sourceTree = "<group>"; };
+		3FD2AB971D90660C0053FF1A /* ImagemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				3FCCC3E11D8C84E90081B803 /* ViewController.swift */,
 				3FCCC3E31D8C84E90081B803 /* Main.storyboard */,
 				3FCCC3F31D8C87780081B803 /* InputTextViewController.swift */,
+				3FD2AB971D90660C0053FF1A /* ImagemViewController.swift */,
 				3FCCC3F11D8C86D20081B803 /* TextoViewController.swift */,
 				3FCCC3E61D8C84E90081B803 /* Assets.xcassets */,
 				3FCCC3E81D8C84E90081B803 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				3FCCC3F41D8C87780081B803 /* InputTextViewController.swift in Sources */,
 				3FCCC3E21D8C84E90081B803 /* ViewController.swift in Sources */,
+				3FD2AB981D90660C0053FF1A /* ImagemViewController.swift in Sources */,
 				3FCCC3F21D8C86D20081B803 /* TextoViewController.swift in Sources */,
 				3FCCC3E01D8C84E90081B803 /* AppDelegate.swift in Sources */,
 			);
@@ -296,6 +300,7 @@
 				3FCCC3F01D8C84E90081B803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
