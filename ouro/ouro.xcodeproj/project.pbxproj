@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FD2ABA61D9068610053FF1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2ABA51D9068610053FF1A /* AppDelegate.swift */; };
+		3FD2ABA81D9068610053FF1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2ABA71D9068610053FF1A /* ViewController.swift */; };
+		3FD2ABAB1D9068610053FF1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD2ABA91D9068610053FF1A /* Main.storyboard */; };
+		3FD2ABAD1D9068610053FF1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD2ABAC1D9068610053FF1A /* Assets.xcassets */; };
+		3FD2ABB01D9068610053FF1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD2ABAE1D9068610053FF1A /* LaunchScreen.storyboard */; };
+		3FD2ABB81D90719A0053FF1A /* MusicaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2ABB71D90719A0053FF1A /* MusicaInfo.swift */; };
+		3FD2ABBA1D90742A0053FF1A /* MusicasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2ABB91D90742A0053FF1A /* MusicasTableViewController.swift */; };
+		3FD2ABBC1D9074580053FF1A /* MusicaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2ABBB1D9074580053FF1A /* MusicaTableViewCell.swift */; };
+		3FD2ABBE1D907D610053FF1A /* DetalhesMusicaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2ABBD1D907D610053FF1A /* DetalhesMusicaViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FD2ABA21D9068610053FF1A /* ouro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ouro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD2ABA51D9068610053FF1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FD2ABA71D9068610053FF1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FD2ABAA1D9068610053FF1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FD2ABAC1D9068610053FF1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FD2ABAF1D9068610053FF1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FD2ABB11D9068610053FF1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD2ABB71D90719A0053FF1A /* MusicaInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicaInfo.swift; sourceTree = "<group>"; };
+		3FD2ABB91D90742A0053FF1A /* MusicasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicasTableViewController.swift; sourceTree = "<group>"; };
+		3FD2ABBB1D9074580053FF1A /* MusicaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicaTableViewCell.swift; sourceTree = "<group>"; };
+		3FD2ABBD1D907D610053FF1A /* DetalhesMusicaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesMusicaViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FD2AB9F1D9068610053FF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FD2AB991D9068610053FF1A = {
+			isa = PBXGroup;
+			children = (
+				3FD2ABA41D9068610053FF1A /* ouro */,
+				3FD2ABA31D9068610053FF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FD2ABA31D9068610053FF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD2ABA21D9068610053FF1A /* ouro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FD2ABA41D9068610053FF1A /* ouro */ = {
+			isa = PBXGroup;
+			children = (
+				3FD2ABA51D9068610053FF1A /* AppDelegate.swift */,
+				3FD2ABA71D9068610053FF1A /* ViewController.swift */,
+				3FD2ABA91D9068610053FF1A /* Main.storyboard */,
+				3FD2ABBD1D907D610053FF1A /* DetalhesMusicaViewController.swift */,
+				3FD2ABBB1D9074580053FF1A /* MusicaTableViewCell.swift */,
+				3FD2ABB91D90742A0053FF1A /* MusicasTableViewController.swift */,
+				3FD2ABB71D90719A0053FF1A /* MusicaInfo.swift */,
+				3FD2ABAC1D9068610053FF1A /* Assets.xcassets */,
+				3FD2ABAE1D9068610053FF1A /* LaunchScreen.storyboard */,
+				3FD2ABB11D9068610053FF1A /* Info.plist */,
+			);
+			path = ouro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FD2ABA11D9068610053FF1A /* ouro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FD2ABB41D9068610053FF1A /* Build configuration list for PBXNativeTarget "ouro" */;
+			buildPhases = (
+				3FD2AB9E1D9068610053FF1A /* Sources */,
+				3FD2AB9F1D9068610053FF1A /* Frameworks */,
+				3FD2ABA01D9068610053FF1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ouro;
+			productName = ouro;
+			productReference = 3FD2ABA21D9068610053FF1A /* ouro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FD2AB9A1D9068610053FF1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Cassio Ferrazzo";
+				TargetAttributes = {
+					3FD2ABA11D9068610053FF1A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FD2AB9D1D9068610053FF1A /* Build configuration list for PBXProject "ouro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FD2AB991D9068610053FF1A;
+			productRefGroup = 3FD2ABA31D9068610053FF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FD2ABA11D9068610053FF1A /* ouro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FD2ABA01D9068610053FF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD2ABB01D9068610053FF1A /* LaunchScreen.storyboard in Resources */,
+				3FD2ABAD1D9068610053FF1A /* Assets.xcassets in Resources */,
+				3FD2ABAB1D9068610053FF1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FD2AB9E1D9068610053FF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD2ABA81D9068610053FF1A /* ViewController.swift in Sources */,
+				3FD2ABA61D9068610053FF1A /* AppDelegate.swift in Sources */,
+				3FD2ABBE1D907D610053FF1A /* DetalhesMusicaViewController.swift in Sources */,
+				3FD2ABBA1D90742A0053FF1A /* MusicasTableViewController.swift in Sources */,
+				3FD2ABBC1D9074580053FF1A /* MusicaTableViewCell.swift in Sources */,
+				3FD2ABB81D90719A0053FF1A /* MusicaInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FD2ABA91D9068610053FF1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD2ABAA1D9068610053FF1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FD2ABAE1D9068610053FF1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD2ABAF1D9068610053FF1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FD2ABB21D9068610053FF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FD2ABB31D9068610053FF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FD2ABB51D9068610053FF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ouro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.cassiof.ouro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FD2ABB61D9068610053FF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ouro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.cassiof.ouro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FD2AB9D1D9068610053FF1A /* Build configuration list for PBXProject "ouro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD2ABB21D9068610053FF1A /* Debug */,
+				3FD2ABB31D9068610053FF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD2ABB41D9068610053FF1A /* Build configuration list for PBXNativeTarget "ouro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD2ABB51D9068610053FF1A /* Debug */,
+				3FD2ABB61D9068610053FF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FD2AB9A1D9068610053FF1A /* Project object */;
+}
